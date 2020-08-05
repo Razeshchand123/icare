@@ -69,6 +69,38 @@ input[type="file"]{
 .heart{
   position: absolute;
   top:20%;
-  right:1%;
+  right:3%;
 }
 
+
+.logopart{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.logopart .parda{
+  position: absolute;
+  bottom:-150%;
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:all 1.5s ease-in-out;
+  background-color: white;
+}
+.logopart:hover .parda{
+  bottom: 0;
+  
+
+}
+hr{
+  background-color: var(--main-bg-color);
+}
+p{
+  color: #043d49;
+}
+.dropdown-menu-right{
+  background-color:#35c2de;
+}

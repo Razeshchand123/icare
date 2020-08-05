@@ -1,35 +1,38 @@
 <div>
 <div class="container">
-<div class="row mt-2">
-<div class="com-lg-6 mx-auto">
+    <div class="row">
+        <div class="col-sm-9 mx-auto ">
+<div class="row">
 
-<iframe width="520" height="347" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+<div class="col-lg-6 logopart">
+<img src="storage/sitepic/logo.png" alt="no img"  class=" "style="width: 100%;" />
+<div class="parda">
+<iframe width="520" height="347" src="https://www.youtube.com/embed/iG9CE55wbtY?rel=0;&autoplay=1" frameborder="0" 
+    allowfullscreen> >
 </iframe>
+</div>
+</div>
+<div class="col-lg-6 d-flex justify-content-center align-items-center">
 
-
+<p class="text-justify p-2">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa deserunt atque quos quidem excepturi doloremque quasi labore nisi est, ducimus ut autem corporis provident alias magnam perferendis eos consequatur sed!loream
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, odio porro nulla excepturi doloremque tempora temporibus alias, quaerat amet minima nisi, quis modi sint quae voluptates expedita! Praesentium, inventore voluptates?
+</p>
 
 </div>
 
-<div class="col-lg-6 introtext">
-
-
-<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo ipsum error maiores. Corrupti reprehenderit blanditiis quo fuga? Non soluta nam tempora ipsum obcaecati at minus sunt officiis veniam excepturi.
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa error aliquid laborum minima nisi, alias ipsam soluta saepe nostrum temporibus distinctio. Facilis placeat omnis magnam perferendis dolorem sit incidunt.</p>
-
 </div>
 
-
-
-
+</div>
 </div>
 </div>
 
 <br><br>
 <h3 class="text-center mt-5">ACTIVITIES</h3>
-<hr class="bg-danger w-25 mx-auto">
+<hr class=" w-25 mx-auto ">
 
 
-<div class="container">
+<div class="container mt-3">
     <div class="row">
         <div class="col-sm-10 mx-auto ">
 

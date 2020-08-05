@@ -69,6 +69,9 @@
                         @else
 
                         <li class="nav-item">
+                                <a class="nav-link" href="/home">Dashbord</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#">About</a>
                             </li>
 
@@ -78,7 +81,7 @@
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" style="#2c4247;">
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item text-dark" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -112,7 +115,14 @@
    </div>
 
 
-
+   <hr>
+        <div class="d-flex justify-content-around w-100  p-1 align-items-center">
+            <a href="/about"><small class="pt-2 ">All 	&#169;  2020 Reserved to I Care Oraganization</small>
+      </a>
+          <small>Developed By <a href="https://www.facebook.com/razesh.chand.1" target="_blank">Rajesh chand</a></small>
+        
+        </div>
+        <br><br>
 
 </body>
 </html>
