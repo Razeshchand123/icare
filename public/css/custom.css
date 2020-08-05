@@ -1,0 +1,74 @@
+body{
+    /* background-color: red; */
+    /* background-color: radial-gradient(#065c95, transparent);  */
+}
+:root {
+   
+    --main-bg-color:  #097287;
+  }
+  
+  .navbar{
+    background-color: var(--main-bg-color);
+    
+  }
+  .navbar a{
+    color:white;
+    
+  }
+  .introtext{
+      /* background-color: yellowgreen; */
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      justify-items: center;
+      
+  }
+  .introtext p{
+      padding:3%;
+      text-align: justify;
+      /* direction: rtl; */
+  }
+
+  .introtext i{
+   align-self: flex-end;
+   margin: 3%;
+}
+
+
+
+
+#postimg{
+  display:none;
+}
+#labeforsetprofile{
+  cursor: pointer;
+text-align: center;
+  background: radial-gradient(#056579, transparent);
+ padding: 3%;
+}
+#imgspan{
+display: inline-block;
+
+
+}
+input[type="file"]{
+  display:none;
+
+}
+.cover{
+  background: radial-gradient(#3cceeb, transparent);
+  border:1px solid #3cceeb;
+}
+.cover div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.heart{
+  position: absolute;
+  top:20%;
+  right:1%;
+}
+
