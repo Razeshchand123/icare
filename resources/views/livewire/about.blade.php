@@ -8,7 +8,7 @@
 <br><br>
 <div class="row">
     <div class="col-md-4 ">
-    <img src="storage/sitepic/logo.png" alt="no img"  class=" "style="width: 100%;" />
+    <img src="storage/sitepic/logo.png" alt="no img"  class="animate__animated animate__pulse animate__delay-3s  animate__infinite "style="width: 100%; animation-duration:6s;" />
     </div>
     <div class="col-md-8 ">
         
@@ -48,9 +48,10 @@
 
     </p>
 </div>
+<!-- animate__animated animate__headShake animate__delay-3s animate__slower animate__infinite -->
 
 <div class="col-lg-6 order-0 order-lg-1">
-<img src="storage/sitepic/cow2.jpg" alt="no img"  class=" mt-2"style="width: 100%;" />
+<img src="storage/sitepic/cow2.jpg" alt="no img"  class=" mt-2 animate__animated animate__bounce animate__delay-2s animate__slower animate__infinite"style="width: 100%; animation-duration:11s;" />
 </div>
 
 </div>
@@ -64,7 +65,7 @@
 <!-- 2nd row start  -->
 <div class="row">
 <div class="col-lg-6 order-0 order-lg-1 bg-white">
-<img src="storage/sitepic/cow3.jpg" alt="no img"  class="bg-dark "style="width: 100%;" />
+<img src="storage/sitepic/cow3.jpg" alt="no img"  class="animate__animated animate__bounce animate__delay-1s animate__infinite" style="width: 100%; animation-duration:9s;"/>
 </div>
    <div class="col-lg-6 order-1 order-lg-1">
    <h1 >What is we Care</h1>
@@ -93,7 +94,7 @@
     </p>
 </div>
 <div class="col-lg-6 order-0 order-lg-1 bg-white">
-<img src="storage/sitepic/cow4.png" alt="no img"  class="bg-dark "style="width: 100%;" />
+<img src="storage/sitepic/cow4.png" alt="no img"  class="animate__animated animate__shakeX animate__delay-2s animate__infinite" style="width: 100%; animation-duration:13s;"/>
 </div>
 
 
