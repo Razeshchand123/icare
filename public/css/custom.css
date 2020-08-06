@@ -1,4 +1,6 @@
+html{scroll-behavior: smooth;}
 body{
+  background: white;
     /* background-color: red; */
     /* background-color: radial-gradient(#065c95, transparent);  */
 }
@@ -67,8 +69,8 @@ input[type="file"]{
 
 
 .heart{
-  position: absolute;
-  top:20%;
+  position: fixed;
+  top:15%;
   right:3%;
 }
 

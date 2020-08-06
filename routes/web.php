@@ -23,3 +23,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::livewire("/","home");
 Route::livewire("social","social-links");
 Route::livewire("addpost","addposts");
+Route::livewire("/about","about");
+Route::livewire("test","test");

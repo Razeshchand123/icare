@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 use Livewire\WithFileUploads;
 use Livewire\Component;
 use App\addpost;
+use Image;
 use Illuminate\Support\Facades\Storage;
 
 class Addposts extends Component
@@ -25,6 +26,7 @@ class Addposts extends Component
 
  public function addposts(){
      $this->test="addpost";
+
 
  $pic1name=$this->pic1->store("public/postsimg");
   $pic2name=$this->pic2->store("public/postsimg");
