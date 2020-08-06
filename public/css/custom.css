@@ -98,9 +98,33 @@ input[type="file"]{
 hr{
   background-color: var(--main-bg-color);
 }
-p{
+p,h1{
   color: #043d49;
+  
 }
+
 .dropdown-menu-right{
   background-color:#35c2de;
 }
+.fa-arrow-circle-left{color:var(--main-bg-color);}
+.socailcover{
+  position: fixed;
+  top:30%;
+  left:3%;
+ 
+}
+.social{display: flex;
+ flex-direction: column;
+}
+.social a i{
+color:var(--main-bg-color);
+margin: 13% 0 10% 0%;
+transition: all 0.5s ease-in-out;
+
+}
+.social a i:hover{
+  text-shadow: 3px 3px 2px black;
+ 
+  margin: 13% 0 10% 0%;
+  }
+  

@@ -107,7 +107,9 @@
         </main>
     </div>
 
-
+<div class="socailcover">
+    <livewire:social-links/>
+</div>
 
   
     <div class="heart">
@@ -115,13 +117,16 @@
    </div>
 
 
+   
    <hr>
-        <div class="d-flex justify-content-around w-100  p-1 align-items-center">
+        <div class="d-flex justify-content-around w-100  p-1 align-items-center ">
+            
             <a href="/about"><small class="pt-2 ">All 	&#169;  2020 Reserved to I Care Oraganization</small>
       </a>
           <small>Developed By <a href="https://www.facebook.com/razesh.chand.1" target="_blank">Rajesh chand</a></small>
         
         </div>
+   
         <br><br>
 
 </body>

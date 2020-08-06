@@ -28,7 +28,7 @@
       <th>img4</th>
       <th>img5</th>
       <th>Author</th>
-      <th colspan="2">Action</th>
+      <th colspan="2" class="text-center">Action</th>
     </thead>
 <tbody>
  @forelse($postdata as $value)
@@ -42,13 +42,17 @@
 <td><img class="d-block" src="{{Storage::url($value->pic4)}}" alt="Third slide" height="25"></td>
 <td><img class="d-block" src="{{Storage::url($value->pic5)}}" alt="Third slide" height="25"></td>
 <td>{{$value->author}}</td>
-<td><i class="fas fa-edit"></i></td>
+<td>
+<button type="button" class="btn ">
+<i class="fas fa-edit"></i>
+</button>  </td>
+
 <!-- <td><i class="fas fa-trash-alt text-danger"></i></td> -->
 
 <!-- modelcode -->
 <!-- Button trigger modal -->
 <td>
-{{$test}}
+
 <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal">
 <i class="fas fa-trash-alt text-danger"></i>
 </button>
@@ -80,6 +84,9 @@
 </tr>
  @empty
  <tr >
+   <style>
+    .socailcover{top:23%;}
+   </style>
  <td colspan="10"><h1 class="text-center text-danger">No Posts Found</h1></td>
  </tr>
  @endforelse
