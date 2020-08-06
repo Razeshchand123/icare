@@ -12,7 +12,7 @@
     </div>
     <div class="col-md-8 ">
         
-    <table class="table table-hover ">
+    <table class="table table-hover text-center ">
         <tbody>
            
             <tr>
@@ -50,7 +50,7 @@
 </div>
 <!-- animate__animated animate__headShake animate__delay-3s animate__slower animate__infinite -->
 
-<div class="col-lg-6 order-0 order-lg-1">
+<div class="col-lg-6 order-0 order-lg-1 about_imgwalacol">
 <img src="storage/sitepic/cow2.jpg" alt="no img"  class=" mt-2 animate__animated animate__bounce animate__delay-2s animate__slower animate__infinite"style="width: 100%; animation-duration:11s;" />
 </div>
 
@@ -64,7 +64,7 @@
 <br><br><br><br>
 <!-- 2nd row start  -->
 <div class="row">
-<div class="col-lg-6 order-0 order-lg-1 bg-white">
+<div class="col-lg-6 order-0 order-lg-1 bg-white about_imgwalacol">
 <img src="storage/sitepic/cow3.jpg" alt="no img"  class="animate__animated animate__bounce animate__delay-1s animate__infinite" style="width: 100%; animation-duration:9s;"/>
 </div>
    <div class="col-lg-6 order-1 order-lg-1">
@@ -93,7 +93,7 @@
 
     </p>
 </div>
-<div class="col-lg-6 order-0 order-lg-1 bg-white">
+<div class="col-lg-6 order-0 order-lg-1 bg-white about_imgwalacol">
 <img src="storage/sitepic/cow4.png" alt="no img"  class="animate__animated animate__shakeX animate__delay-2s animate__infinite" style="width: 100%; animation-duration:13s;"/>
 </div>
 

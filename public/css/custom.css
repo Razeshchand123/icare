@@ -129,4 +129,9 @@ transition: all 0.5s ease-in-out;
  
   margin: 13% 0 10% 0%;
   }
-  
+  .about_imgwalacol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
