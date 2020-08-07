@@ -1,6 +1,7 @@
 <div>
    
 
+<hr>
 
 <form wire:submit.prevent="imgstore" class="form-group">
 

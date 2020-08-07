@@ -15,15 +15,12 @@ class Test extends Component
  public $pic1;
 
 
-
     public function imgstore(){
+
     $std=new testtable;
-
-  $this->pic1=Image::make($this->pic1)->resize(320, 240);
-  Storage::disk("public")->put("/postsimg".$this->pic1,$this->pic1);
-
-  $std->pic1=$this->pic1;
-  $std->save();
+    $img = Image::make($this->pic1)->resize(320, 240);
+    Storage::disk('public')->put("a.jpg",$img);
+    $std->save();
     }
 
 
@@ -31,6 +28,7 @@ class Test extends Component
 
     public function render()
     {
+     
         return view('livewire.test');
     }
 }

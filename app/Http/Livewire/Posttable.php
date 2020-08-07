@@ -17,8 +17,22 @@ public function deletepost($targetid){
   
 $d_std=new addpost;
 $d_target=$d_std->find($targetid);
+
+
+$this->test=$d_target->pic1;
+
+
+
+
+
+
 $result=$d_target->delete();
 if($result){
+ Storage::delete($d_target->pic1);
+Storage::delete($d_target->pic2);
+Storage::delete($d_target->pic3);
+Storage::delete($d_target->pic4);
+Storage::delete($d_target->pic5);
     session()->flash("done","data deleted sussufully");
     return redirect('/home');
 }

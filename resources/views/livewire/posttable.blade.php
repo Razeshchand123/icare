@@ -15,7 +15,7 @@
      <p class="text-success">{{session()->get("done")}} <i class="fas fa-check-circle text-success"></i></p>
      @endif
      </div>
-    
+    {{$test}}
          <!-- tablecode  -->
    <table class="table table-striped table-hover table-borded">
     <thead>
