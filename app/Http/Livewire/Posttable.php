@@ -28,7 +28,8 @@ if($result){
     public function render()
     {
         $std=new addpost;
-        $postdata=$std->orderBy("id","desc")->paginate(2);
+        $postdata=$std->where("author","=",Auth()->user()->name)
+        ->orderBy("id","desc")->paginate(2);
         return view('livewire.posttable',["postdata"=>$postdata]);
     }
 }

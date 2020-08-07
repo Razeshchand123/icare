@@ -37,7 +37,17 @@
     
 </div>
 </div>
-<br><br><br><br>
+<br><br>
+<ul class="blu">
+  <li class="bli"></li>
+  <li class="bli"></li>
+  <li class="bli"></li> <li class="bli"></li> <li class="bli"></li> <li class="bli"></li>
+  <li class="bli"></li>
+  <li class="bli"></li>
+  <li class="bli"></li>
+</ul>
+<br><br>
+
 <!-- 2nd row start  -->
 <div class="row">
    <div class="col-lg-6 order-1 order-lg-1 ">

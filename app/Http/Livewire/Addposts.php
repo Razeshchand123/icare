@@ -24,6 +24,10 @@ class Addposts extends Component
  public $pic5;
 
 
+ public function mount(){
+     $this->author=Auth()->user()->name;
+ }
+
 
  public function updated($field){
     $this->validateOnly($field,[

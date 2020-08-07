@@ -10,7 +10,7 @@
         <a href="/addpost">add posts <i class="fas fa-plus-circle "></i></a>
        </div>
      <div class="d-flex justify-content-between">
-     <p> total: 1</p> 
+     <p> total: {{$postdata->count()}}</p> 
       @if(session()->has("done"))
      <p class="text-success">{{session()->get("done")}} <i class="fas fa-check-circle text-success"></i></p>
      @endif
@@ -32,6 +32,7 @@
     </thead>
 <tbody>
  @forelse($postdata as $value)
+
 <tr>
 <td>1</td>
 <td>{{$value->title}}</td>

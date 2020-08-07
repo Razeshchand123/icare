@@ -163,3 +163,66 @@ transition: all 0.5s ease-in-out;
     align-items: center;
 
   }
+
+
+  /* 1111111111111111111111111 */
+.blu{
+  display: flex;
+
+  justify-content: space-around;
+  border-bottom: 1px solid #043d49;
+
+ 
+}
+.bli{
+  list-style: none;
+  height:20px;
+  width:20px;
+  border-radius: 50%;
+  background-color: red;
+  animation: bounce 2.0s linear infinite;
+}
+.bli:nth-child(1){
+  animation-delay: 0.1s;
+  background-color: green;
+}
+.bli:nth-child(2){
+  animation-delay: 0.5s;
+  background-color: rgb(250, 9, 69);
+}
+.bli:nth-child(3){
+  animation-delay: 0.7s;
+  background-color: rgb(202, 241, 24);
+}
+.bli:nth-child(4){
+
+  background-color: blue;
+}
+.bli:nth-child(5){
+  animation-delay: 0.1s;
+  background-color: black;
+}.bli:nth-child(6){
+  animation-delay: 0.3s;
+  background-color:green
+}
+.bli:nth-child(7){
+  animation-delay: 0.8;
+  background-color: rgb(236, 157, 10)
+}
+.bli:nth-child(8){
+  animation-delay: 0.1s;
+  background-color: red;
+}
+.bli:nth-child(9){
+  animation-delay: 0.5s;
+  background-color: blue;
+}
+
+
+
+@keyframes bounce{
+  0%{transform: translateY(0px)}
+  50%{transform: translateY(-50px)}
+  100%{transform: translateY(0px)}
+}
+/* 222222222222222222222222222222222222222222222222222222 */

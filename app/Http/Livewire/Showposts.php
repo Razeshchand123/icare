@@ -17,7 +17,7 @@ class Showposts extends Component
     public function render()
     {
         $std=new addpost;
-        $postdata=$std->orderBy("id","desc")->paginate(2);
+        $postdata=$std->orderBy("id","desc")->paginate(5);
         return view('livewire.showposts',["postdata"=>$postdata]);
     }
 }

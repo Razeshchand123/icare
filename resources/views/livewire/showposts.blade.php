@@ -41,7 +41,7 @@
      <p class="p-2 text-capitalize text-justify">{{$value->description}}   <span><a href="">see_more</a></span></p>
     
 
-     <p class="d-flex justify-content-between"> <small><i class="fas fa-pen-fancy"></i>: {{$value->author}}</small><small><i class="fas fa-clock mr-1"></i>{{$value->created_at->diffForHumans()}}</small></p>
+     <p class="d-flex justify-content-between"> <small class="text-capitalize"><i class="fas fa-pen-fancy"></i>: {{$value->author}}</small><small><i class="fas fa-clock mr-1"></i>{{$value->created_at->diffForHumans()}}</small></p>
      
  </div>
 </div>
@@ -51,7 +51,9 @@
 @endforelse
 
 
-
+<div class=" d-flex justify-content-center">
+<small class="text-center">{{$postdata->links()}}</small>
+</div>
 
 
 
