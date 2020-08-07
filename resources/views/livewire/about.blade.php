@@ -12,7 +12,7 @@
     </div>
     <div class="col-md-8 ">
         
-    <table class="table table-hover text-center ">
+    <table class="table table-hover text-center text-blod">
         <tbody>
            
             <tr>
@@ -40,18 +40,18 @@
 <br><br><br><br>
 <!-- 2nd row start  -->
 <div class="row">
-   <div class="col-lg-6 order-1 order-lg-1">
+   <div class="col-lg-6 order-1 order-lg-1 ">
    <h1 >What is I Care</h1>
     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam necessitatibus minus quis eos suscipit dicta illo. Sunt tenetur recusandae corrupti dolor ratione. Aliquam ab accusamus sed provident sapiente repellat.
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium illo, nostrum quam consectetur sit mollitia, architecto iure deserunt quod quaerat expedita, quia provident consequatur debitis maiores! Voluptates eligendi id iusto?
      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis atque voluptas mollitia sint, ipsa, delectus similique excepturi laudantium perferendis voluptate laborum, tempore omnis pariatur architecto tenetur dolorum accusamus quia!
-
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, delectus amet iusto ducimus consequuntur natus necessitatibus veritatis. Corporis commodi sunt eius asperiores praesentium aliquid natus vero expedita quis! Itaque, ipsa!
     </p>
 </div>
 <!-- animate__animated animate__headShake animate__delay-3s animate__slower animate__infinite -->
 
-<div class="col-lg-6 order-0 order-lg-1 about_imgwalacol">
-<img src="storage/sitepic/cow2.jpg" alt="no img"  class=" mt-2 animate__animated animate__bounce animate__delay-2s animate__slower animate__infinite"style="width: 100%; animation-duration:11s;" />
+<div class="col-lg-6 order-0 order-lg-1 about_imgwalacol ">
+<img src="storage/sitepic/cow2.png" alt="no img"  class=" animate__animated animate__bounce animate__delay-2s animate__slower animate__infinite"style="width: 100%; animation-duration:11s;" />
 </div>
 
 </div>

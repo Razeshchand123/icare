@@ -24,7 +24,35 @@ class Addposts extends Component
  public $pic5;
 
 
+
+ public function updated($field){
+    $this->validateOnly($field,[
+        "ptitle"=>"required|min:5|max:100",
+        "pdescription"=>"required|min:50|max:1000",
+        "pic1"=>"required|image",
+        "pic2"=>"required|image",
+        "pic3"=>"required|image",
+        "pic4"=>"required|image",
+        "pic5"=>"required|image",
+    ]);
+ }
+
+
+
  public function addposts(){
+
+$this->validate([
+    "ptitle"=>"required|min:5|max:100",
+        "pdescription"=>"required|min:50|max:1000",
+        "pic1"=>"required|image",
+        "pic2"=>"required|image",
+        "pic3"=>"required|image",
+        "pic4"=>"required|image",
+        "pic5"=>"required|image",
+]);
+
+
+
      $this->test="addpost";
 
 

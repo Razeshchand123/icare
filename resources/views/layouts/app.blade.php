@@ -36,7 +36,7 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
                     <img src="storage/sitepic/logo.png" alt="no img"  class="border border-info img-responsive rounded-circle" width="50" height="50">
-                    I Care
+                    I Care You
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -53,32 +53,32 @@
                         <!-- Authentication Links -->
                         @guest
                         <li class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
+                                <a class="nav-link line" href="/about">About</a>
                             </li>
 
 
 
                              <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link line" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li> 
                              @if (Route::has('register'))
-                                <li class="nav-item">
+                                <li class="nav-item line">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
                         @else
 
                         <li class="nav-item">
-                                <a class="nav-link" href="/home">Dashbord</a>
+                                <a class="nav-link line" href="/home">Dashbord</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
+                            <li class="nav-item ">
+                                <a class="nav-link line" href="/about">About</a>
                             </li>
 
 
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                    <span class="line">{{ Auth::user()->name }}</span> <span class="caret"></span>
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -113,7 +113,7 @@
 
   
     <div class="heart">
-   <button  class="btn btn-sm">  <i class="text-danger fas fa-heart fa-3x animate__animated animate__heartBeat animate__delay-2s animate__slower animate__infinite	infinite"></i></button>
+    <livewire:heart/>
    </div>
 
 
