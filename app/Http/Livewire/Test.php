@@ -37,7 +37,8 @@ class Test extends Component
     $name= "/abc/".Str::random(10).rand().".png";
     Storage::disk('public')->put("$name",$img);
    
-
+    $std->pic1=$name;
+    $std->save();
 
     }
 

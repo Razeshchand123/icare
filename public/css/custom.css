@@ -220,6 +220,14 @@ transition: all 0.5s ease-in-out;
 
 
 
+.carousel-control-next-icon,.carousel-control-prev-icon{
+
+  color: #1a0505;
+    background: black;
+    border-radius: 50%;
+}
+
+
 @keyframes bounce{
   0%{transform: translateY(0px)}
   50%{transform: translateY(-50px)}

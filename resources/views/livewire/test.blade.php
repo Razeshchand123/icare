@@ -1,11 +1,9 @@
 <div class="d-flex justify-content-center">
    
 
-ppp
-<br>
-<br><br>
-<br>
-<hr>
+
+
+
 @if ($pic1)
         Photo Preview:
         <img src="{{ $pic1->temporaryUrl() }}" height="100" width="100">
