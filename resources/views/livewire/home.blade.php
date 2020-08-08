@@ -7,8 +7,8 @@
 <div class="col-lg-6 logopart">
 <img src="storage/sitepic/logo.png" alt="no img"  class=" "style="width: 100%;" />
 <div class="parda">
-<iframe width="520" height="347" src="https://www.youtube.com/embed/iG9CE55wbtY?rel=0;&autoplay=1" frameborder="0" 
-    allowfullscreen> >
+<iframe width="520" height="347" src="https://www.youtube.com/embed/iG9CE55wbtY?&autoplay=1" frameborder="0" 
+    allowfullscreen> 
 </iframe>
 </div>
 </div>

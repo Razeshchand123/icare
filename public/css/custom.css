@@ -106,7 +106,7 @@ input[type="file"]{
 .logopart .parda{
   
   position: absolute;
-  bottom:-150%;
+  bottom:-153%;
   height:100%;
   width:100%;
   display: flex;
@@ -139,7 +139,7 @@ p,h1{
 .fa-arrow-circle-left{color:var(--main-bg-color);}
 .socailcover{
   position: fixed;
-  top:30%;
+  top:26%;
   left:3%;
  
 }

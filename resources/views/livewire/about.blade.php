@@ -38,7 +38,8 @@
 </div>
 </div>
 <br><br>
-<ul class="blu">
+
+<ul class="blu w-100">
   <li class="bli"></li>
   <li class="bli"></li>
   <li class="bli"></li> <li class="bli"></li> <li class="bli"></li> <li class="bli"></li>
@@ -46,6 +47,7 @@
   <li class="bli"></li>
   <li class="bli"></li>
 </ul>
+
 <br><br>
 
 <!-- 2nd row start  -->
