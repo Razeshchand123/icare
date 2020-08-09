@@ -44,9 +44,9 @@
 <td><img class="d-block" src="{{Storage::url($value->pic5)}}" alt="Third slide" height="25"></td>
 <td>{{$value->author}}</td>
 <td>
-<button type="button" class="btn ">
+<a href="/message" type="button" class="btn ">
 <i class="fas fa-edit"></i>
-</button>  </td>
+</a>  </td>
 
 <!-- <td><i class="fas fa-trash-alt text-danger"></i></td> -->
 

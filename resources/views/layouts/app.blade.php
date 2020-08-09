@@ -96,7 +96,8 @@
                             </li>
 
 
-                   
+                            <img src=" storage/{{Auth::user()->profile}}" alt="" height="40" width="40" 
+                              class="img-responsive rounded-circle ">
                         @endguest
                     </ul>
                 </div>

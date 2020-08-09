@@ -114,26 +114,36 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, delectus amet 
 </div>
 <!-- 2ndrow end  -->
 
+
 <br><br>
 <!-- our team part start heere  -->
 <h1 class="text-center">Our Team</h1>
 <hr class="w-25 mx-auto"/>
 <div class="row">
-<div class="col-sm-4">
-<img src="storage/userimg/user1.png" alt="no img"  class="bg-dark rounded-circle"style="width: 100%;" />
-<p class="text-center">Mr.Razesh chand</p>
-</div>
-<div class="col-sm-4">
-<img src="storage/userimg/user1.png" alt="no img"  class="bg-dark rounded-circle"style="width: 100%;" />
-<p class="text-center">Mr.Razesh chand</p>
-</div>
-<div class="col-sm-4">
-<img src="storage/userimg/user1.png" alt="no img"  class="bg-dark rounded-circle"style="width: 100%;" />
-<p class="text-center">Mr.Razesh chand</p>
+@forelse($userlist as $value)
+<div class="col-sm-4 userlist" >
+<a href="{{$value->facebooklink}}" target="_blank">
+<img src="storage/{{$value->profile}}" alt="" 
+                              class="img-responsive rounded-circle  imma" height="150px" width="150">
+</a>
+
+<p class="ml-3 text-capitalize" style="letter-spacing:3px;">{{$value->name}}</p>
 </div>
 
+@empty
+<p>no user found yet</p>
+<!-- <div class="col-sm-4 ">
+<img src=" storage/{{Auth::user()->profile}}" alt="" height="150px" width="150"
+                              class="img-responsive rounded-circle ">
+
+<p class="ml-3 text-capitalize" style="letter-spacing:3px;">{{Auth()->user()->name}}</p>
+</div> -->
+@endforelse 
+
+
+
 </div>
-<h5 class="text-center"><a href="" class="text-center">see all</a></h5>
+<h5 class="text-center"><a href="/message" class="text-center">see all</a></h5>
 <!-- our team part end heere  -->
 <br><br><br><br>
 <!-- mappart  -->

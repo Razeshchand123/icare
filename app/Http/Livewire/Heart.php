@@ -14,7 +14,7 @@ class Heart extends Component
 public function mount(){
    $data=DB::table('heart')->find(1);
 
-   $this->number=$data->number;
+//    $this->number=$data->number;
 }
 
 

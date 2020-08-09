@@ -24,4 +24,6 @@ Route::livewire("/","home");
 Route::livewire("social","social-links");
 Route::livewire("addpost","addposts");
 Route::livewire("/about","about");
-Route::livewire("test","test");
+Route::livewire("/test","test");
+
+Route::livewire("/message","message");
