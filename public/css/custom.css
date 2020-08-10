@@ -243,7 +243,12 @@ box-shadow: 2px 0px 6px 9px #00000063;
   flex-direction: column;
 }
 
-
+.emptyusercase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 

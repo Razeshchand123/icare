@@ -131,13 +131,28 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, delectus amet 
 </div>
 
 @empty
-<p>no user found yet</p>
-<!-- <div class="col-sm-4 ">
-<img src=" storage/{{Auth::user()->profile}}" alt="" height="150px" width="150"
+<!-- <p>no user found yet</p> -->
+<div class="col-sm-4 emptyusercase"> 
+
+<img src=" storage/userimg/user1.png" alt="no img" height="150px" width="150"
                               class="img-responsive rounded-circle ">
 
-<p class="ml-3 text-capitalize" style="letter-spacing:3px;">{{Auth()->user()->name}}</p>
-</div> -->
+<p class="ml-3 text-capitalize" style="letter-spacing:3px;">I care</p>
+</div> 
+<div class="col-sm-4 emptyusercase"> 
+
+<img src=" storage/userimg/user1.png" alt="no img" height="150px" width="150"
+                              class="img-responsive rounded-circle ">
+
+<p class="ml-3 text-capitalize" style="letter-spacing:3px;">I care</p>
+</div> 
+<div class="col-sm-4 emptyusercase"> 
+
+<img src=" storage/userimg/user1.png" alt="no img" height="150px" width="150"
+                              class="img-responsive rounded-circle ">
+
+<p class="ml-3 text-capitalize" style="letter-spacing:3px;">I care</p>
+</div> 
 @endforelse 
 
 

@@ -4,10 +4,34 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\addpost;
+use\App\User;
 use Illuminate\Support\Facades\Storage;
-class Posttable extends Component
+class Admin extends Component
 {
-public $test=0;
+
+    public $test=0;
+
+
+
+
+
+
+public function deleteuser($uid){
+    $this->test=$uid;
+    $std=new User;
+$target=$std->find($uid);
+$result=$target->delete();
+
+if(true){
+Storage::delete("public/".$target->profile);
+    session()->flash("done1","data deleted sussufully");
+    return redirect('/admin');
+}
+}
+
+
+
+
 
 
 
@@ -33,12 +57,14 @@ Storage::delete($d_target->pic5);
 }
 }
 
-
     public function render()
     {
+
+        $std2=new User;
+        $userlist=$std2->orderBy("id","desc")->get();
+   
         $std=new addpost;
-        $postdata=$std->where("author","=",Auth()->user()->name)
-        ->orderBy("id","desc")->paginate(2);
-        return view('livewire.posttable',["postdata"=>$postdata]);
+        $postdata=$std->orderBy("id","desc")->paginate(2);
+        return view('livewire.admin',["postdata"=>$postdata,"userlist"=>$userlist]);
     }
 }

@@ -8,13 +8,15 @@ class Heart extends Component
 {
 
     public $test=0;
-    public $number; 
+    public $number=172; 
 
-
+// Note :: first time run garda heart table ma gayer manuaally number ko value dine
 public function mount(){
+
+
    $data=DB::table('heart')->find(1);
 
-//    $this->number=$data->number;
+   $this->number=$data->number;
 }
 
 

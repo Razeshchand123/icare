@@ -7,12 +7,12 @@
 <style>
 .number{
    cursor: pointer;
-   top: 27%;
+    top: 33%;
     z-index: 99;
     color: white;
     position: absolute;
-    right: 38%;
-    font-size: 84%;
+    right: 34%;
+    font-size: 72%;
 }
 </style>
 </div>

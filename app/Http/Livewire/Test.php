@@ -49,3 +49,10 @@ class Test extends Component
         return view('livewire.test');
     }
 }
+// cursor: pointer;
+// top: 33%;
+// z-index: 99;
+// color: white;
+// position: absolute;
+// right: 38%;
+// font-size: 65%;
