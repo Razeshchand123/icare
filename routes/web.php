@@ -25,6 +25,6 @@ Route::livewire("social","social-links");
 Route::livewire("addpost","addposts");
 Route::livewire("/about","about");
 Route::livewire("/test","test");
-Route::livewire("/admin","admin");
+Route::livewire("/admin","admin")->middleware('superadmin');
 
 Route::livewire("/message","message");

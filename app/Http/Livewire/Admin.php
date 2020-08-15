@@ -60,11 +60,13 @@ Storage::delete($d_target->pic5);
     public function render()
     {
 
-        $std2=new User;
-        $userlist=$std2->orderBy("id","desc")->get();
-   
-        $std=new addpost;
-        $postdata=$std->orderBy("id","desc")->paginate(2);
-        return view('livewire.admin',["postdata"=>$postdata,"userlist"=>$userlist]);
+    $std2=new User;
+    $userlist=$std2->orderBy("id","desc")->get();
+
+    $std=new addpost;
+    $postdata=$std->orderBy("id","desc")->paginate(2);
+    return view('livewire.admin',["postdata"=>$postdata,"userlist"=>$userlist]);
+  
+      
     }
 }
